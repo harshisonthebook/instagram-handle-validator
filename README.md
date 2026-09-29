@@ -1,12 +1,13 @@
 # Instagram Handle Validator
 
-Python CLI that checks if an Instagram handle follows the platform's rules.
+Python CLI that validates Instagram-style handles.
 
 ## Features
 
 - Checks handle length (3 to 30 characters)
 - Allows only letters, numbers, periods, and underscores
 - Rejects handles that start with a digit
+- Suggests alternative handles when the input is invalid
 - Requires at least one letter
 - Rejects consecutive periods or underscores
 - Prints a clear valid or invalid message with the reason
@@ -29,11 +30,18 @@ python validator.py
 ```
 $ python validator.py
 enter the username: harsh.dev_01
+
 Username is valid.
 
 $ python validator.py
 enter the username: harsh..dev
+
 Username cannot contain consecutive periods or underscores.
+
+Suggestions:
+1. harsh..dev_1
+2. harsh..dev
+3. harsh..dev_yt
 ```
 
 ## What I Learned
