@@ -43,4 +43,4 @@ Invalid: consecutive periods not allowed
 ## Author
 
 Harsh, BSc CS, Delhi University
-[LinkedIn link]
+[LinkedIn](https://www.linkedin.com/in/harsh-tiwari7)
